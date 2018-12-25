@@ -27,10 +27,6 @@ FOUNDATION_EXPORT const unsigned char MWPlaySDKVersionString[];
 #import <MWPlaySDK/MWLiveSocket.h>
 #import <MWPlaySDK/MWEnvelopeInfoModel.h>
 
-#import <MWPlaySDK/MWQuestionnaireAnswerModel.h>
-#import <MWPlaySDK/MWQuestionnaireReveiveModel.h>
-#import <MWPlaySDK/MWQuestionnaireResultModel.h>
-
 #import <MWPlaySDK/MWSDKConfigHelper.h>
 
 //mj

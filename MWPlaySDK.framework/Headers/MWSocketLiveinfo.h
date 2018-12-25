@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MWQuestionnaireResultModel.h"
+
 
 @interface MWSocketLiveinfo : NSObject
 
@@ -41,12 +41,6 @@
 @property (nonatomic, copy) NSString    *msg_id;
 /** 全体禁言 */
 @property (nonatomic, assign) int       silence_all;
-
-//问卷
-/** 问卷参与人数 */
-@property (nonatomic, copy)  NSString   *realTotalPerson;
-/** 统计信息数组 */
-@property (nonatomic, copy)  NSArray    <MWQuestionnaireResultModel *>*statistics;
 
 
 /**主流直播状态
